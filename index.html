@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PAWSKY — Pet Sitting Premium 🐾</title>
+  <meta name="description" content="PAWSKY: Pet Sitting, Drop-ins, House Sitting, Pet Taxi, Dog Walking, Grooming, Training y Pet Photos." />
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido principal</a>
+
+  <!-- Header -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Ir al inicio - PAWSKY">
+        <!-- Logo SVG simple (puedes reemplazarlo más adelante por el final) -->
+        <svg class="brand__logo" viewBox="0 0 64 64" role="img" aria-label="Logo PAWSKY">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1">
+              <stop offset="0" stop-color="var(--gold)"/>
+              <stop offset="1" stop-color="var(--orange)"/>
+            </linearGradient>
+          </defs>
+          <circle cx="32" cy="32" r="28" fill="none" stroke="url(#g)" stroke-width="4"/>
+          <path d="M20 36c0-5 4-9 9-9h6c5 0 9 4 9 9 0 6-6 10-12 10S20 42 20 36Z" fill="url(#g)" opacity=".9"/>
+          <circle cx="24" cy="24" r="4" fill="url(#g)"/>
+          <circle cx="32" cy="20" r="4" fill="url(#g)"/>
+          <circle cx="40" cy="24" r="4" fill="url(#g)"/>
+        </svg>
+
+        <span class="brand__text">
+          <span class="brand__name">PAWSKY</span>
+          <span class="brand__tag">Pet Sitting & Care</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="sr-only">Abrir menú</span>
+          ☰
+        </button>
+        <div class="nav__menu" id="navMenu">
+          <a href="#inicio">Inicio</a>
+          <a href="#historia">Historia</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#galeria">Galería</a>
+          <a href="#reseñas">Reseñas</a>
+          <a href="#tienda">Tienda</a>
+          <a href="#vlog">Vlog</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
+
+      <a class="btn btn--primary header__cta" href="#contacto">Reservar ✨</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg" role="img" aria-label="Foto de mascotas felices"></div>
+    <div class="hero__overlay"></div>
+
+    <div class="container hero__content">
+      <p class="pill">🐾 Cuidado confiable • Estilo premium • Detalles que importan</p>
+      <h1 class="hero__title">
+        Pet Sitting con corazón <span class="accent">y</span> estructura.
+      </h1>
+      <p class="hero__subtitle">
+        En PAWSKY cuidamos a tus pequeñines como familia: drop-ins, caminatas, overnight, taxi 🚕, grooming ✂️,
+        training 🎓 y fotos 📸. Todo con reportes claros y mucha calma.
+      </p>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#servicios">Ver servicios 🦴</a>
+        <a class="btn btn--ghost" href="#calendario">Ver disponibilidad 📅</a>
+      </div>
+
+      <div class="hero__trust">
+        <div class="stat">
+          <span class="stat__num">⭐ 5.0</span>
+          <span class="stat__label">Reseñas</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">🐶🐱</span>
+          <span class="stat__label">Multi-especie</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">📝</span>
+          <span class="stat__label">Reportes post-visita</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <!-- Historia -->
+    <section class="section" id="historia">
+      <div class="container split">
+        <div class="split__text">
+          <h2 class="section__title">Historia & Acerca de 🐾</h2>
+          <p class="section__lead">
+            PAWSKY nació de un amor muy real por los huskys — Kyara y Suki — y de la idea de crear un cuidado
+            de mascotas que sea profesional, cálido y súper claro.
+          </p>
+          <p>
+            Empecé cuidando mascotas con dedicación total, aprendiendo rutinas, personalidades, y lo que de verdad
+            tranquiliza a un dueño: comunicación constante, detalles y consistencia. Con el tiempo, PAWSKY se convirtió
+            en una marca: estética limpia, reportes fáciles, y cuidado con intención.
+          </p>
+          <div class="bullets">
+            <div class="bullet">✨ Minimalista, pero con vibra premium</div>
+            <div class="bullet">🧼 Orden, limpieza y seguridad primero</div>
+            <div class="bullet">📸 Momentos lindos (¡y evidencia!)</div>
+          </div>
+          <a class="btn btn--secondary" href="#vlog">Ver tips en el Vlog →</a>
+        </div>
+
+        <div class="split__card">
+          <div class="card">
+            <h3 class="card__title">Nuestro lema</h3>
+            <p class="card__quote">“Cuidamos con calma. Reportamos con claridad. Amamos con propósito.”</p>
+            <div class="card__mini">
+              <span class="chip">Navy</span>
+              <span class="chip">Gold</span>
+              <span class="chip">Orange</span>
+              <span class="chip">🐾</span>
+            </div>
+          </div>
+
+          <div class="card card--image">
+            <img
+              src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=1200&q=70"
+              alt="Perro feliz siendo acariciado"
+              loading="lazy"
+            />
+            <div class="card__imageOverlay">
+              <p><strong>Kyara & Suki</strong> fueron la chispa 🐺✨</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="section section--tint" id="servicios">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Servicios 🐶🐱🦴</h2>
+          <p class="section__lead">
+            Elige lo que necesitas hoy. Nosotros nos encargamos del resto (con updates lindos y claros).
+          </p>
+        </div>
+
+        <div class="grid cards">
+          <article class="service reveal">
+            <h3>Drop-ins 🐾</h3>
+            <p>Visitas rápidas para comida, agua, arenero, medicina y amorcito.</p>
+            <a href="#contacto" class="link">Reservar →</a>
+          </article>
+
+          <article class="service reveal">
+            <h3>House Sitting 🏡</h3>
+            <p>Cuidado en casa con rutina estable, seguridad y presencia.</p>
+            <a href="#contacto" class="link">Reservar →</a>
+          </article>
+
+          <article class="service reveal">
+            <h3>Dog Walking 🚶‍♀️</h3>
+            <p>Paseos con atención a energía, señales y clima.</p>
+            <a href="#contacto" class="link">Reservar →</a>
+          </article>
+
+          <article class="service reveal">
+            <h3>Pet Taxi 🚕</h3>
+            <p>Traslados a grooming, vet o citas. Seguridad primero.</p>
+            <a href="#contacto" class="link">Reservar →</a>
+          </article>
+
+          <article class="service reveal">
+            <h3>Grooming ✂️</h3>
+            <p>Baño, cepillado, uñas (según temperamento y acuerdo).</p>
+            <a href="#contacto" class="link">Reservar →</a>
+          </article>
+
+          <article class="service reveal">
+            <h3>Training 🎓</h3>
+            <p>Rutinas base, refuerzo positivo, y consistencia.</p>
+            <a href="#contacto" class="link">Reservar →</a>
+          </article>
+
+          <article class="service reveal">
+            <h3>Pet Photos 📸</h3>
+            <p>Mini sesión para tus recuerdos (y para presumir 💅).</p>
+            <a href="#contacto" class="link">Reservar →</a>
+          </article>
+        </div>
+
+        <!-- Tabla requerida -->
+        <div class="tableWrap reveal" aria-label="Tabla comparativa de servicios">
+          <h3 class="miniTitle">Tabla rápida (ejemplo)</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Servicio</th>
+                <th>Duración típica</th>
+                <th>Ideal para</th>
+                <th>Desde</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Drop-ins</td>
+                <td>20–30 min</td>
+                <td>Rutina diaria, comida, medicina</td>
+                <td>$</td>
+              </tr>
+              <tr>
+                <td>Dog Walking</td>
+                <td>30–60 min</td>
+                <td>Energía, socialización controlada</td>
+                <td>$</td>
+              </tr>
+              <tr>
+                <td>House Sitting</td>
+                <td>Overnight</td>
+                <td>Ansiedad por separación, estabilidad</td>
+                <td>$$</td>
+              </tr>
+              <tr>
+                <td>Pet Taxi</td>
+                <td>Por trayecto</td>
+                <td>Vet, grooming, pick-up/drop-off</td>
+                <td>$</td>
+              </tr>
+              <tr>
+                <td>Grooming</td>
+                <td>Variable</td>
+                <td>Higiene y mantenimiento</td>
+                <td>$$</td>
+              </tr>
+              <tr>
+                <td>Training</td>
+                <td>Sesión</td>
+                <td>Hábitos, obediencia básica</td>
+                <td>$$</td>
+              </tr>
+              <tr>
+                <td>Pet Photos</td>
+                <td>20–40 min</td>
+                <td>Recuerdos, contenido, prints</td>
+                <td>$</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="fineprint">*Precios reales se confirman tras conocer rutina y necesidades.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería -->
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Mascotas cuidadas 🐾📸</h2>
+          <p class="section__lead">Una probadita de los pequeñines que han sido parte de PAWSKY.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery__item reveal">
+            <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=70" alt="Perro café posando" loading="lazy" />
+            <figcaption>Good vibes ✨</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=900&q=70" alt="Gato mirando a cámara" loading="lazy" />
+            <figcaption>Cat energy 🐱</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="https://images.unsplash.com/photo-1525253086316-d0c936c814f8?auto=format&fit=crop&w=900&q=70" alt="Perro blanco y negro descansando" loading="lazy" />
+            <figcaption>Calm & cozy 💤</figcaption>
+          </figure>
+          <figure class="gallery__item reveal">
+            <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=900&q=70" alt="Gato recostado feliz" loading="lazy" />
+            <figcaption>Soft life 🧡</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reseñas -->
+    <section class="section section--tint" id="reseñas">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Reseñas ⭐</h2>
+          <p class="section__lead">Lo que dicen los humanos… y lo que sienten los peluditos.</p>
+        </div>
+
+        <div class="grid reviews">
+          <article class="review reveal">
+            <p class="review__text">“Súper profesional y cariñosa. Me encantaron los reportes y las fotos.”</p>
+            <p class="review__meta"><strong>Christine</strong> • Mascota: <span class="pet">Marley 🐱</span></p>
+          </article>
+          <article class="review reveal">
+            <p class="review__text">“Mi perro se calmó muchísimo con su rutina. Se nota la experiencia.”</p>
+            <p class="review__meta"><strong>Danielle</strong> • Mascota: <span class="pet">Timber 🐶</span></p>
+          </article>
+          <article class="review reveal">
+            <p class="review__text">“Confiable, puntual y detallista. La volvería a contratar mil veces.”</p>
+            <p class="review__meta"><strong>Regina</strong> • Mascota: <span class="pet">Focus 🐾</span></p>
+          </article>
+        </div>
+
+        <!-- Formulario para agregar reseña (requisito de forms) -->
+        <div class="card formCard reveal">
+          <h3 class="miniTitle">Deja tu reseña ✍️</h3>
+          <form id="reviewForm" class="form">
+            <div class="form__row">
+              <label>
+                Nombre
+                <input name="name" required placeholder="Tu nombre" />
+              </label>
+              <label>
+                Mascota
+                <input name="pet" required placeholder="Nombre de tu mascota 🐶🐱" />
+              </label>
+            </div>
+            <label>
+              Comentario
+              <textarea name="comment" required rows="3" placeholder="Cuéntanos tu experiencia ⭐"></textarea>
+            </label>
+            <button class="btn btn--secondary" type="submit">Enviar reseña</button>
+            <p class="fineprint" id="reviewMsg" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tienda -->
+    <section class="section" id="tienda">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Tienda 🛍️</h2>
+          <p class="section__lead">Merch lindo: ropa, gorras, tazas y portarretratos personalizados.</p>
+        </div>
+
+        <div class="grid shop">
+          <article class="product reveal">
+            <h3>Hoodie PAWSKY</h3>
+            <p>Suave, minimal, con detalles dorados.</p>
+            <button class="btn btn--ghost" type="button" data-toast="Próximamente: Hoodie">Ver</button>
+          </article>
+          <article class="product reveal">
+            <h3>Gorra 🧢</h3>
+            <p>Logo bordado + vibra navy.</p>
+            <button class="btn btn--ghost" type="button" data-toast="Próximamente: Gorra">Ver</button>
+          </article>
+          <article class="product reveal">
+            <h3>Taza ☕</h3>
+            <p>Perfecta para mañanas con pelitos.</p>
+            <button class="btn btn--ghost" type="button" data-toast="Próximamente: Taza">Ver</button>
+          </article>
+          <article class="product reveal">
+            <h3>Portarretrato 📸</h3>
+            <p>Personalizado con tu mascota.</p>
+            <button class="btn btn--ghost" type="button" data-toast="Próximamente: Portarretrato">Ver</button>
+          </article>
+        </div>
+
+        <div class="ctaBox reveal">
+          <div>
+            <h3>Visita la tienda completa</h3>
+            <p>Conecta aquí a tu e-commerce (Shopify, Wix, etc.).</p>
+          </div>
+          <a class="btn btn--primary" href="#" aria-label="Ir a la tienda virtual (placeholder)">Ir a la tienda →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vlog -->
+    <section class="section section--tint" id="vlog">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Vlog de cuidado 🧠🐾</h2>
+          <p class="section__lead">Tips reales: rutinas, ansiedad, paseos, y seguridad.</p>
+        </div>
+
+        <div class="split">
+          <div class="card reveal">
+            <h3>Últimos posts (demo)</h3>
+            <ul class="list">
+              <li>🦴 Señales de estrés: cómo detectarlas</li>
+              <li>🚶‍♀️ Paseos con lluvia: plan B inteligente</li>
+              <li>🐱 Enriquecimiento para gatos indoor</li>
+            </ul>
+            <a class="btn btn--secondary" href="#" aria-label="Ir al vlog (placeholder)">Ir al Vlog →</a>
+          </div>
+
+          <div class="card reveal">
+            <h3>Newsletter</h3>
+            <p>Una vez a la semana, tips cortitos y útiles.</p>
+            <form class="form" id="newsletterForm">
+              <label>
+                Email
+                <input type="email" name="email" required placeholder="tuemail@correo.com" />
+              </label>
+              <button class="btn btn--ghost" type="submit">Suscribirme ✨</button>
+              <p class="fineprint" id="newsletterMsg" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Redes -->
+    <section class="section" id="redes">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Síguenos ✨</h2>
+          <p class="section__lead">Más fotos, tips y updates en redes.</p>
+        </div>
+
+        <div class="social reveal" role="list">
+          <a role="listitem" class="social__btn" href="#" aria-label="Instagram (placeholder)">📷 Instagram</a>
+          <a role="listitem" class="social__btn" href="#" aria-label="TikTok (placeholder)">🎵 TikTok</a>
+          <a role="listitem" class="social__btn" href="#" aria-label="Facebook (placeholder)">💙 Facebook</a>
+          <a role="listitem" class="social__btn" href="#" aria-label="YouTube (placeholder)">▶️ YouTube</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calendario -->
+    <section class="section section--tint" id="calendario">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Disponibilidad 📅</h2>
+          <p class="section__lead">Selecciona una fecha para ver si hay espacio (demo).</p>
+        </div>
+
+        <div class="calendarWrap reveal">
+          <div class="calendarTop">
+            <button class="btn btn--ghost" id="calPrev" type="button" aria-label="Mes anterior">←</button>
+            <div class="calendarTitle" id="calTitle" aria-live="polite"></div>
+            <button class="btn btn--ghost" id="calNext" type="button" aria-label="Mes siguiente">→</button>
+          </div>
+
+          <div class="calendarLegend">
+            <span class="legendItem"><span class="dot dot--free"></span> Disponible</span>
+            <span class="legendItem"><span class="dot dot--busy"></span> Ocupado</span>
+            <span class="legendItem"><span class="dot dot--selected"></span> Seleccionado</span>
+          </div>
+
+          <div class="calendarGrid" id="calGrid" role="grid" aria-label="Calendario"></div>
+
+          <div class="calendarInfo" id="calInfo" aria-live="polite">
+            Selecciona un día para ver detalles.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="section" id="contacto">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Contacto 📨</h2>
+          <p class="section__lead">Cuéntame qué necesitas y armamos el plan ideal.</p>
+        </div>
+
+        <div class="split">
+          <div class="card reveal">
+            <h3>Reserva rápida</h3>
+
+            <!-- Formulario principal (requisito de forms) -->
+            <form class="form" id="contactForm">
+              <div class="form__row">
+                <label>
+                  Nombre
+                  <input name="fullName" required placeholder="Tu nombre" />
+                </label>
+                <label>
+                  Email
+                  <input type="email" name="email" required placeholder="tuemail@correo.com" />
+                </label>
+              </div>
+
+              <div class="form__row">
+                <label>
+                  Servicio
+                  <select name="service" required>
+                    <option value="">Selecciona…</option>
+                    <option>Drop-ins 🐾</option>
+                    <option>House Sitting 🏡</option>
+                    <option>Pet Taxi 🚕</option>
+                    <option>Dog Walking 🚶‍♀️</option>
+                    <option>Grooming ✂️</option>
+                    <option>Training 🎓</option>
+                    <option>Pet Photos 📸</option>
+                  </select>
+                </label>
+
+                <label>
+                  Fecha preferida
+                  <input type="date" name="date" />
+                </label>
+              </div>
+
+              <label>
+                Mensaje
+                <textarea name="message" rows="4" placeholder="Rutina, energía, medicinas, horarios, etc."></textarea>
+              </label>
+
+              <label class="check">
+                <input type="checkbox" required />
+                <span>Acepto ser contactado para coordinar detalles.</span>
+              </label>
+
+              <button class="btn btn--primary" type="submit">Enviar solicitud ✨</button>
+              <p class="fineprint" id="contactMsg" aria-live="polite"></p>
+            </form>
+          </div>
+
+          <div class="card reveal">
+            <h3>Info</h3>
+            <p><strong>PAWSKY</strong> — Pet Sitting & Care 🐾</p>
+            <p class="fineprint">
+              *Agrega aquí tu ciudad/área y método de contacto real.
+            </p>
+
+            <div class="infoGrid">
+              <div class="infoBox">
+                <div class="infoIcon">⏱️</div>
+                <div>
+                  <div class="infoTitle">Horario</div>
+                  <div class="infoText">Flexible según reserva</div>
+                </div>
+              </div>
+              <div class="infoBox">
+                <div class="infoIcon">🧾</div>
+                <div>
+                  <div class="infoTitle">Reportes</div>
+                  <div class="infoText">Fotos + resumen post-visita</div>
+                </div>
+              </div>
+              <div class="infoBox">
+                <div class="infoIcon">🛡️</div>
+                <div>
+                  <div class="infoTitle">Seguridad</div>
+                  <div class="infoText">Rutina + instrucciones claras</div>
+                </div>
+              </div>
+            </div>
+
+            <hr class="hr" />
+
+            <p class="fineprint">
+              ¿Quieres un “meet & greet”? Dilo en tu mensaje y lo coordinamos 💛
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>
+        <div class="footer__brand">PAWSKY 🐾</div>
+        <div class="footer__note">“Cuidamos con calma. Reportamos con claridad.”</div>
+      </div>
+
+      <div class="footer__links">
+        <a href="#servicios">Servicios</a>
+        <a href="#reseñas">Reseñas</a>
+        <a href="#tienda">Tienda</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <div class="footer__copy">© <span id="year"></span> PAWSKY. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="./main.js"></script>
+</body>
+</html>
